@@ -1,0 +1,97 @@
+
+
+{
+    "csse": [
+      
+        {
+           "time": "2:00-2:15",
+           "projectId": "csse-2-200",
+           "title": "",
+           "studentName": "Trevor Nguyen",
+           "studentMajor": "CSSE",
+           "projectType": "Faculty Research",
+           "facultyAdvisor": "Dr. Clark Olson",
+           "posterLink": "",
+           "abstract": ""
+       },
+       {
+        "time": "2:15-2:30",
+        "projectId": "csse-2-215",
+        "title": "Full Stack Enhancements Drive Increase Sales",
+        "studentName": "Slava Arovina",
+        "studentMajor": "CSSE",
+        "projectType": "Individual Project - Student Defined",
+        "facultyAdvisor": "Dr. Johnny Lin",
+        "posterLink": "./posters/csse/arovinaslava_4261394_121290906_Slava - CSS497 Poster - Florum@5x.png",
+        "abstract": "This project outlines the systematic enhancements undertaken on Florumart.com, a platform initially launched as MVP to address specific needs for a local florist. Initially grappling with challenges such as nonfunctional search, unreliable payment processes, and notable security vulnerabilities, the platform required substantial upgrades.\n\n Employing a full-stack development approach, this initiative leveraged modern technologies and strategic enhancements throughout the website. Key technologies included React for dynamic interface development; Next.js for improved SEO through server-side rendering; MongoDB for efficient data management; and Square SDK for secure payment processing. Tools such as Lighthouse for performance monitoring, Chart.js for data visualization, and Cypress for end-to-end testing.\n\n One of the major enhancements was the overhaul of the search functionality, transitioning from a non-functional input field to a robust, tag-based search system. This enhancement significantly improved product discoverability by breaking down search queries into tags and matching them against product titles and tags, with results sorted by relevance.\n\n Security measures were addressed following several intrusion attempts. The project implemented stringent password policies, secure token management, and rigorous email validation processes at registration, which have effectively fortified the platform against further security breaches. \n\n Additionally, the payment process underwent a significant overhaul. Issues with hidden failed transactions in Square's list were resolved by implementing a detailed comparison algorithm that cross-referenced transaction data such as the last four digits of the credit card and total transaction amount. This adjustment not only enhanced the accuracy of transaction records but also boosted customer trust by ensuring transparency and reliability in the payment process. \n\n The project's impact was substantial, leading to an increase in operational efficiency, enhanced security measures, and improved user interaction. Notably, the platform experienced a marked increase in sales during key holiday periods, demonstrating the tangible benefits of the enhancements. "
+    },
+    {
+        "time": "2:30-2:45",
+        "projectId": "csse-2-230",
+        "title": "Software Engineer Internship",
+        "studentName": "Vincent Wirawan",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Min Chen",
+        "posterLink": "./posters/csse/wirawanvincentnathaniel_4261036_120956982_capstone.png",
+        "abstract": "This project aimed to develop an advanced software solution for intelligent financial document processing by leveraging artificial intelligence (AI) models and techniques. The primary objective was to automate extracting and analyzing critical information from various financial documents, such as purchase orders, to streamline business processes and enhance operational efficiency. The purpose was to leverage artificial intelligence (AI) models and techniques to improve document processing accuracy and efficiency.\n\n The project involved a collaborative effort among a team of 15 developers, fostering a dynamic and multidisciplinary environment. Extensive research was conducted to evaluate the performance and suitability of multiple AI models, including Llama 2, YOLOv8, DocCQVA, LayoutLM, DONUT, Mistral, and Mixtral. These models were rigorously tested and fine-tuned using our own dataset, prompt engineering techniques, and API integration to optimize their accuracy and effectiveness across a range of document processing tasks. \n\n To harness the collective power of these models, natural language processing (NLP) pipelines were implemented using the LangChain framework. This approach facilitated the seamless integration of various large language models (LLMs) and data sources, enabling the system to work seamlessly. The system also allows users to create templates for different document types, with fields automatically extracted using the AI models. Documents were processed through a pipeline involving OCR, table recognition with YOLOv8 and PaddleOCR, and document querying with DONUT. \n\n This solution has the potential to significantly streamline document processing workflows, reducing time and manual effort, as well as improving accuracy. "
+    },
+    {
+        "time": "2:45-3:00",
+        "projectId": "csse-2-245",
+        "title": "Product Management Internship @ Costco",
+        "studentName": "Sebastian Horstmann",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Marc Dupuis",
+        "posterLink": "./posters/csse/horstmannsebastianlorenzonicolas_4026801_121277401_Sebastian Horstmann Spring 2024 Capstone.png",
+        "abstract": "This winter I participated in an internship with Costco’s Information Security department. My role was mainly as a product/project manager; however, I had the opportunity to join a total of 9 projects in roles ranging from PM to software development. My team does high-level orchestration within InfoSec, essentially responsible for ensuring any new technology development (or changes to existing tech) within Costco are reviewed by the appropriate security and compliance teams.\n\n My main work began with the goal of automating the project intake process. After reviewing the current process both I and the team felt that more work was needed before moving to automation, thus my project became defining a manually repeatable process to then later automate. Firstly, I needed to understand every InfoSec team’s “engagement criteria”. In other words, what criteria, if found in a project, mean that this team should be engaged? For example, any new project that involves handling credit card information must go through the PCI (Payment Card Industry) team for review. Finding these criteria involved meeting with all the other InfoSec teams, learning what artifacts and project states they required to complete their assessment, then compiling all the information gathered into a single spreadsheet. After cleaning the data, I was left with a list of engagement criteria and what teams they correlate to.\n\n To facilitate the team automating this process later on, I created a flowchart/decision tree that includes the other InfoSec teams, their engagement criteria, and any other relevant information. This allows the engineer assigned to a project to quickly see what teams they need to engage on a project and is a baseline for future automation. \n\n As an intern I also was able to join other projects including reducing the teams project review backlog from 800+ to <300 and building out a python-based web scraper to download training resources for employees, saving ~200 of manual work. I was also able to join the planning of a leadership offsite event, and much more.\n\n My overall learning was broad, and I gained an understanding of how large companies go about protecting the data of their millions of customers and employees, and it was incredibly helpful seeing how cybersecurity principles are used for real. Being given the chance to provide actual value as an intern was incredible, and I am grateful to have had the opportunity. "
+    },
+    {
+        "time": "3:00-3:15",
+        "projectId": "csse-2-300",
+        "title": "Creating a Cybersecurity Curriculum",
+        "studentName": "Amy Tran",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Marc Dupuis",
+        "posterLink": "./posters/csse/tranamy_4026926_121300354_Capstone Poster Final Spring 2024.png",
+        "abstract": "In an era of growing reliance on technology and prevalence of digital threats, it is crucial for the newer generation to navigate the digital landscape safely. During my internship at Magikid Robotics Lab, I developed a comprehensive cybersecurity curriculum for students ranging from Kindergarten to 12th Grade. This involved creating age-appropriate material that introduces fundamental cybersecurity concepts for the younger students, and more in-depth principles for the older students. The primary purpose of this project was to address a gap in our current educational program by integrating a cybersecurity curriculum. This curriculum aims to enhance students’ digital literacy, promote responsible online behavior, and foster critical thinking and problem-solving skills. Developing this curriculum presented challenges, particularly in sourcing specialized educational resources for different age levels. Navigating these challenges involved leveraging online platforms, collaborating with peers and professionals, and adapting existing teaching techniques. To ensure effectiveness, I prepared for testing and feedback sessions with peer educators and students. Preliminary feedback helped gauge whether the curriculum was both engaging and effective in conveying key cybersecurity concepts. By educating students on cybersecurity from an early age, we are preparing them to protect themselves from unforeseen threats. This curriculum not only fills a vital educational gap but also supports the broader goal of fostering a more informed and secure digital community. "
+    },
+    {
+        "time": "3:15-3:30",
+        "projectId": "csse-2-315",
+        "title": "Large Language Model Monitoring Dashboard",
+        "studentName": "Biruk Geletu",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Ms. Nancy Kool",
+        "posterLink": "./posters/csse/BirukGeletu.PNG",
+        "abstract": "During my internship at Gekko Corporation as a Software Engineer, I worked on two main projects as part of the AI team: vector databases for large-scale data storage and LLM monitoring dashboard. The internship ran from Winter to Spring for two quarters under the guidance of my faculty advisor, Prof. Nancy Kool, and Gekko internship supervisor Mr. Jeff Ken. \n\n I was involved on the first project as a researcher and was tasked to find a suitable vector database that could efficiently manage large datasets that the LLM retrieved later. This initial phase involved an extensive review of various databases, where I analyzed their strengths and weaknesses in the context of the project needs. This helped the team to make a better decision in order to pick a reliable, cost efficient and well performing database. As result, the team selected a Pincon open-source vector database after evaluating my research result based on the project criteria. The project improved my problem-solving and analytical skills. \n\n After successfully completing this project, I was assigned to a significant project that involved tailoring Langkit metrics to extract meaningful insights and integrating with Splunk to create a LLM monitoring dashboard. This second project involves extensive troubleshooting, collaborating, breaking down the task into a sprint, researching, integrating, and developing Python code.\n\n As a result, the system identified and mitigated vulnerabilities in LLM prompts and responses by evaluating Langkit metrics. I created a monitoring dashboard on Splunk by sending Langkit metrics data. The system addressed risks associated with jailbreaks, prompt injection, hallucination, and response quality in LLMs by evaluating relevant metrics. It integrated with Splunk to monitor LLM behavior and performance. Gekko clients use Splunk as their primary monitoring platform. Therefore, the companies monitor their LLMs on their existing platform.\n\n In conclusion, my internship at Gekko Corporation as a Software Engineer was a highly enriching experience, where I contributed to two key projects within the AI team. The first project focused on selecting and integrating a suitable vector database, which enhanced my research, evaluation, and technical skills. The second project involved developing an LLM monitoring dashboard by tailoring Langkit metrics and integrating them with Splunk, which improved my problem-solving, coding, and teamwork abilities. Overall, the internship significantly advanced my technical and professional competencies, preparing me for future challenges in the field. "
+    },
+    {
+        "time": "3:30-3:45",
+        "projectId": "csse-2-330",
+        "title": "",
+        "studentName": "Hao Chen",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Ms. Nancy Kool",
+        "posterLink": "./posters/csse/wanghaocheng_4262350_121301353_Slide1.jpeg",
+        "abstract": "The project's central goal was to create a comprehensive web platform that facilitates the easy placement and tracking of orders while also offering a superior user experience. The platform features a user-friendly interface with functionalities such as product browsing, order customization, and direct purchases. Significant focus was placed on the backend to ensure secure and efficient handling of transactions and customer data. The development process involved setting up a responsive web design, implementing a secure database for order management, and integrating payment processing capabilities. Key pages developed include a main product page, order details, and a contact page, all designed with careful consideration of usability and aesthetic appeal. To accomplish this, I utilized HTML, CSS for frontend design, PHP for server-side scripting, and MySQL for database management, ensuring a robust and scalable solution. Further enhancing the platform, JavaScript was incorporated to add interactive elements and dynamic content updates, contributing to an engaging user experience. The application was hosted on a local Apache server during development, which facilitated efficient request handling and simulated a real-world operational environment.\n\n Certain features of the original plan, such as domain purchasing and additional maintenance functionalities, were not implemented due to budget constraints and the project's scope. Despite the limitations of not hosting the website officially online and the mock nature of the payment system, through this capstone project I have gained valuable experience in web development, including user interface design and backend development. The feedback from user interactions has been positive, emphasizing the functional effectiveness and potential of the platform for real-world application when expanded beyond its current scope. \n\n In conclusion, this project both fulfilled the learning and technical implementation goals and also set the groundwork for future enhancement. Next steps include exploring funding options for full deployment and integrating a live payment system to transition the platform from a capstone project to a commercial product. "
+    },
+    {
+        "time": "3:45-4:00",
+        "projectId": "csse-2-345",
+        "title": "NotePal: Using AI to help you study",
+        "studentName": "Parth Gupta",
+        "studentMajor": "CSSE",
+        "projectType": "Individual Project - Student Defined",
+        "facultyAdvisor": "Ms. Nancy Kool",
+        "posterLink": "./posters/csse/guptaparth_4029711_121284372_NotePal Poster 2nd Iteration (5).png",
+        "abstract": "This capstone project focuses on the development of NotePal, a comprehensive note-taking and quiz generation application. The primary objective was to create a Notion-style WYSIWYG editor with AI-powered features, including autocompletion, flashcard generation, and quiz generation.\n\n I employed technologies such as Next.js for the front-end, Auth.js for authentication, and OpenAI for AI-powered features. The project involved several key tasks: implementing user authentication, developing real-time document editing, generating embeddings for document content, creating a chatbot, and integrating quiz and flashcard features. As the sole developer, I was responsible for designing, coding, and testing all features, as well as managing the project timeline and deliverables.\n\n The NotePal application successfully integrates real-time editing and saving, AI-powered features, and user-friendly quiz and flashcard generation, providing a robust tool for users. The real-time editing feature allows multiple users to collaborate seamlessly, while the AI-powered autocompletion enhances the user experience by providing smart suggestions. The flashcard generation feature enables users to create study aids quickly, and the quiz generation feature supports customizable quizzes for effective learning.\n\n Future steps include further optimization and scaling, as well as the addition of more advanced AI features. This project significantly enhanced my skills in full-stack development, AI integration, and project management. Through this experience, I learned the importance of effective time management, problem-solving, and continuous learning to overcome the various challenges encountered during the project. "
+    }
+    ]
+}
+
+

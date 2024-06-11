@@ -1,0 +1,130 @@
+
+
+{
+    "csse": [
+      
+        {
+           "time": "2:00-2:15",
+           "projectId": "csse-5-200",
+           "title": "Enhanced Coding & Interview Prep Through Leetcode",
+           "studentName": "Minh Chau Vu",
+           "studentMajor": "CSSE",
+           "projectType": "Faculty research",
+           "facultyAdvisor": "Dr. Yusuf Pisan",
+           "posterLink": "./posters/csse/ChloeVu.png",
+           "abstract": "During the internship, I engaged in a rigorous and structured approach to mastering algorithms through LeetCode. My activities included solving six LeetCode problems each week, presenting a medium-level problem biweekly, and maintaining active communication with my group regarding these problems. This methodical practice allowed me to deeply understand different types of algorithms and their applications in solving coding problems. By solving problems regularly and presenting my solutions, I developed both my technical skills and my ability to communicate complex concepts effectively.\n\n The purpose of this structured approach was multifaceted. Primarily, it aimed to enhance my proficiency with various algorithms featured in LeetCode problems, starting from easy and progressing to medium difficulty. This gradual increase in complexity ensured a thorough understanding of each algorithmic concept. Additionally, the biweekly presentations were designed to build my confidence in discussing technical problems, a crucial skill for future job interviews. By connecting with my group, I could also benefit from diverse perspectives and collaborative problem-solving techniques. \n\n As a result of this diligent practice, I solved a total of 114 LeetCode problems. Each problem was approached first with a naive solution and then optimized, which helped me understand different solution strategies and their efficiencies. I also completed the study path provided by Neetcode.com, ensuring a comprehensive coverage of the essential algorithms. This structured learning path not only solidified my algorithmic knowledge but also provided a clear roadmap to follow, making the learning process more efficient and goal-oriented. The significance of this achievement lies in the numerous skills and habits I developed. Firstly, I became familiar with the format and nature of LeetCode problems, a crucial aspect of technical interviews in the tech industry. Secondly, the habit of talking out loud while solving problems and immediately analyzing them improved my problem-solving process and confidence. This practice simulates the interview environment, where explaining your thought process is key. Lastly, the discipline and consistency required to stick to the weekly practice regimen have ingrained a strong work ethic in me, which will be beneficial in any future professional endeavors. Overall, this internship experience has not only boosted my technical skills but also prepared me mentally and emotionally for future challenges. "
+       },
+       {
+        "time": "2:15-2:30",
+        "projectId": "csse-5-215",
+        "title": "Enhancing Coding Skills through LeetCode",
+        "studentName": "Johanna Vo",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty research",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "./posters/csse/vojohanna_4283648_121258782_Slide1.jpeg",
+        "abstract": "Many students from the University of Washington Bothell's Computer Science and Software Engineering (CSSE) program feel unprepared for technical interviews, despite a strong curriculum and proximity to major tech companies. This capstone project addresses this issue by enhancing coding skills and interview readiness through systematic Leetcode practice. Each week, participants solved five easy and one medium-level problem, fostering consistent learning and problem-solving agility. The program concluded with a comprehensive presentation on a challenging hard-level problem.\n\n The chosen method involved using the Leetcode platform for a diverse range of problems, supplemented by weekly reports to provide hands-on practice and personalized feedback. IDEs and version control tools like Git/GitHub ensured efficient coding, debugging, and management. \n\n The results were promising: participants improved their problem-solving techniques, gained a better grasp of data structures and algorithms, and increased their confidence in technical skills. They successfully tackled increasingly complex problems, demonstrating efficiency in hard-level challenges. The project also fostered collaboration and project management skills essential for professional development. \n\n In conclusion, this project not only sharpened coding proficiency but also built critical thinking and presentation skills. The findings suggest integrating structured problem-solving practice into the CSS curriculum, either by incorporating lessons into existing core classes, creating a dedicated CSS skills course, or continuing with the workshop format. These approaches would equip students with the necessary skills to excel in technical interviews and professional settings, enhancing the overall quality and reputation of the CSS program at UWB."
+    },
+    {
+        "time": "2:30-2:45",
+        "projectId": "csse-5-230",
+        "title": "",
+        "studentName": "Ka Hin Choi",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty research",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "",
+        "abstract": ""
+    },
+    {
+        "time": "2:45-3:00",
+        "projectId": "csse-5-245",
+        "title": "Interview Preparation via Leetcode Problems",
+        "studentName": "Jonathan Ha",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty research",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "./posters/csse/hajonathan_4264083_121259450_CapstonePosterFINAL.jpg",
+        "abstract": "For my capstone project, I did 6 Leetcode problems a week with 5 being easy and 1 being medium difficulty. The Leetcode problems covered many different topics such as Dynamic Programming, Hash Tables, Binary Trees, and other various topics.\n\n While the main purpose of this project was to be more comfortable and prepared with technical interview questions, the main goal for me was to re-discover/fix my lacking coding skills. My coding skills before this project were extremely lacking and downright embarrassing. \n\n The result of the project is that I am now able to implement and think of multiple solutions to any coding problem that I may face. First I always think of the nonoptimal brute force solution, but after some research I can understand the best effective and optimal solution. \n\n The significance of this result is that I can build upon these skills on how to approach problems and also be more comfortable whenever I get chosen for a technical interview. I have also learned about the best ways to learn coding concepts because of this project. I learned that in order to get good at Leetcode, you must learn one concept at a time and do it repetitively. Essentially you should do Binary Search problems first, for example, and then keep doing basic binary search because once you understand the concept of binary search, you can apply it to any problem and with minor tweaks you will be able to solve the Leetcode problem "
+    },
+    {
+        "time": "3:00-3:15",
+        "projectId": "csse-5-300",
+        "title": "",
+        "studentName": "Arjun Anand",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty research",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "./posters/csse/anandarjun_4150136_121286908_arjun_poster.jpg",
+        "abstract": "During the internship, we focused on solving 100 Leetcode problems to prepare for technical interviews. The problems covered a broad spectrum of topics, including arrays, strings, linked lists, trees, and graphs, ensuring comprehensive exposure to various data structures and algorithms. I employed a structured approach, starting with easy problems to build confidence, progressing to medium ones to develop deeper insights, and finally tackling hard problems to challenge and hone our skills under pressure. I also felt more comfortable with the basics after doing comprehensive practice through easy problems. \n\n As a result of solving these problems, I felt significantly more comfortable and confident in technical interviews. I also learned new algorithm techniques, including dynamic programming, which helped me optimize recursive solutions with overlapping subproblems. The two-pointer technique enhanced my ability to solve problems involving arrays and linked lists with reduced time complexity. Additionally, mastering the monotonic stack allowed me to efficiently solve problems involving ranges and spans, while understanding prefix sums improved my ability to handle cumulative frequency and range query problems. These techniques not only improved my problem-solving skills but also equipped me with a robust toolkit for addressing complex coding challenges in interviews and real-world software development projects. Consistent practice also allowed me to employ these techniques in my previous and new projects to improve performance. "
+    },
+    {
+        "time": "3:15-3:30",
+        "projectId": "csse-5-315",
+        "title": "",
+        "studentName": "Drew Higginbotham",
+        "studentMajor": "CSSE",
+        "projectType": "Individual project - Student defined",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "",
+        "abstract": ""
+    },
+    {
+        "time": "3:30-3:45",
+        "projectId": "csse-5-330",
+        "title": "Software Qualification and Testing at Crane Aerospace & Electronics",
+        "studentName": "Peter Landstrom",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "<<NOPOSTER>>",
+        "abstract": "Aerospace is one of the most highly regulated industries in the world. For this reason, software development for safety-critical components cannot follow the “break and fix” methodology. This type of software must undergo vigorous testing to obtain safety necessary certification. While it is fortunate that aerospace systems are being tested for safety, this creates much overhead for creating software (as much as half of the production time will be spent on just qualifying and testing the software). This necessitates efficient testing procedures to reduce overhead.\n\n This is where I come in as an intern at Crane Aerospace. My responsibility as a software engineer is to create an efficient testing environment and perform tool qualification. What do I mean by tool qualification? Not only does the software being developed need to be tested for proper functioning, but the software used for testing the product software needs to be tested as well. In the aerospace industry, the process of testing off-the-shelf software tools is called tool qualification. The tool I needed to perform tool qualification on was Trace32. Trace32 is an extremely powerful tool used to debug and collect run-time data on microcontrollers.\n\n Performing tool qualification on Trace32 required me to write test scripts in C to write to a target microcontroller. I then used Trace32 to see if it collected all data on the microcontroller accurately. I then wrote a document explaining the process of how I qualified that the tool works correctly.\n\n Aside from qualifying Trace32, I also created a Python API that can automatically test the software running on a target microcontroller and remotely interface with Trace32. This allows Crane to efficiently test their product that they are currently making.\n\n In conclusion, I performed tool qualification for Trace32 which will be REQUIRED for Crane to develop their current project in the WSS team when the time comes for safety testing and certification. I also created a python API that allows crane to write automated test procedures for the product. Not only does this API make testing more efficient, but it is also REQUIRED for the project to move forward during testing and certification. "
+    },
+    {
+        "time": "3:45-4:00",
+        "projectId": "csse-5-345",
+        "title": "Full-Stack Engineer Intern @ Costco IT",
+        "studentName": "Nathan Kolakaluri",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "./posters/csse/kolakalurinathansamuel_4232081_121244072_Capstone Poster Finalized.png",
+        "abstract": "As part of my capstone, I took on an internship at Costco IT as a Full Stack Engineer in the Membership department. All Membership is currently honed into Costco's major project, Membership Global(MGLO). The aim of MGLO is to modernize the Membership system and deprecate our legacy systems. Allowing for a quicker membership signup process, easier fixes to account errors and complete control of what we want the system to hold. Membership has four main teams(pods) each working on a different portion of the project, from the data synchronization/migration, to account handling, to what the user would see and interact with.\n\n My pod, Tiger, focused on feature development, and my role was to design and implement several critical features of the MGLO system whilst handling any bugs that arise. Utilizing the SCRUM methodology, I participated in daily standups, collaborated with cross-functional pods, and contributed to the development of high-quality software solutions. Using technologies such as C# and Azure Services, I was required to implement features that enhance the membership signup process, improve account management, and increase system flexibility for MGLO as soon as possible.\n\n After learning about CostcoIT, MGLO, and Tiger, I was officially onboarded. Shortly following, I was given tasks to improve the data organization and structure of repositories, which I was able to do quickly and efficiently. After consistent work and results, I was given a more complicated ask, I was asked to implement a photos endpoint for Tiger, creating a way to scan and retrieve members' photos at the card scanner at warehouse entrances. From drawing out the system design of the feature in Lucidchart to the implementation of each component of the diagram, it had to have been thoroughly thought out and executed. I was able to start development and push it to production by the completion of my internship.\n\n During the last few weeks of my internship, I had the opportunity to create a project for my department, as well as present what I achieved throughout the internship to the CIO and VPs of the company. I was successfully able to contribute to the development of CostcoIT and meet my expectations of gaining experience in a professional software-focused environment. "
+    },
+    {
+        "time": "4:00-4:15",
+        "projectId": "csse-5-400",
+        "title": "Agile Software Development",
+        "studentName": "Evan Grey",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "./posters/csse/greyevan_4139558_121287985_POSTER.png",
+        "abstract": "CommandLink is a software company that provides software services and solutions to customers, as well as developing internal tools for our sales, billing, and software engineering teams to use. CommandLink provides voice services, and IT security provider, helping corporations consolidate their core infrastructure into one platform.\n\n During my internship, I was involved in several projects. In the beginning, I worked on smaller individual cases and projects that I pulled from our extensive feedback, which we collect via form on any page in the site. These ranged from smaller visual fixes (extraneous words, coloring) to larger endeavors (international number formatting, Kanban board revamping). This was all done in PHP, which also called for knowledge of JQuery, JavaScript, HTML, and CSS.\n\n After, I was put onto my first project, the Alerts project. Here, I transitioned into a frontend role, learning React from scratch to create a new alerting system. This was the first instance of React being implemented into the CommandLink platform, so we were creating every component from scratch and building the beginnings of our React codebase. I participated in daily standups and would collaborate with my coworkers to push out new code and features. I created and helped create several of the React components we still use today, such as a day picker, various buttons, as well as modals. \n\n After the alerts project was finished, our team grew and we were moved to the Knowledgebase project, where we were tasked with implementing the ability to create and edit articles, as well as uploading assets. Here, I also started participating in sprint demos and team retros. Some of the notable contributions I made here were in the creation of a custom file uploader component, as well as helping with several of the views in the project, such as article views and settings pages. I also began to help out with reviewing and merging my coworker’s PRs. \n\n I used the VS Code IDE to do all of my development, and GitHub for managing branches and PRs. The languages I worked in were PHP, JQuery, JavaScript, HTML, CSS, and React. \n\n Throughout development, I followed an agile development model, choosing tickets from our project Kanban board, allocating story points and following a 2-week sprint cycle. \n\n I was able to help my team and CommandLink to create software that is being used today within the site, and can be sold and used by our customers. "
+    },
+    {
+        "time": "4:15-4:30",
+        "projectId": "csse-5-415",
+        "title": "Metrology Focused Software Engineering at Fluke",
+        "studentName": "Jonathan Spradlin",
+        "studentMajor": "CSSE",
+        "projectType": "Current employer",
+        "facultyAdvisor": "Dr. Yusuf Pisan",
+        "posterLink": "./posters/csse/spradlinjonathan_3732110_121251404_spradlin_panel.jpg",
+        "abstract": "For my capstone, I worked in various capacity as a Metrology Software Engineer on three separate projects at Fluke. These projects span two kaizen events and a coding project expanding the capability of the MET/CAL Calibration Management Software to include a new reference device. Kaizens, at Fluke, are dedicated focus time of a cross-functional group for a week. \n\n The first kaizen was determining the feasibility of using AI computer vision to read the display of both digital and analog devices that cannot communicate through a GPIB or serial interface. My role was quality testing the results from live webcam images being sent to the API and the integration into MET/CAL. Through changes to the training algorithm, we were able to jump from 44% determination accuracy to 86% within that week and have an improvement plan to reach our end goal of 99%.\n\n The second kaizen focused on reducing the turn time of the Fluke 55XXA meter calibrator from 11.5 hours to 5.5 hours. There are many parts that contribute to that turn time, so my focus was reducing the amount of time the station runs without any intervention. This was done through evaluating the new Fluke 8588A as a replacement multiple other reference standards on the station. Once we determined the 8588A would work, I rewrote the control files to utilize the new equipment and any changes to the measurement loop. We were able to reduce the turn time to 6.05 hours by the end of the week with a plan for other improvements over the next few months that will reduce the time even more and remove now redundant equipment from the stations.\n\n The final project was extending the capability of MET/CAL through the development of a new Name-Value Instrument (NVI) Function Select Code (FSC) for the Keithley 2290-5 5 kV power supply. This project involved the development of a runtime driver to facilitate communication through the GPIB bus in accordance with the IEEE 488.2 standard and compile time code to handle parsing of commands through the FSC. The compile time code ensures the configuration is legal for the device and determines the reference accuracy for that configuration as needed by the calibration process. This project in in its final development steps and will be incorporated into the delivered product once released. "
+    },
+    {
+        "time": "4:30-4:45",
+        "projectId": "csse-5-430",
+        "title": "Integrating & Automating External Data Sources into Internal Tool \"Demand2Land\" (D2L)",
+        "studentName": "Michael Hernandez",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty research",
+        "facultyAdvisor": " Dr. Yusuf Pisan",
+        "posterLink": "./posters/csse/hernandezmichael_4261402_121300312_Colloquium Poster_Final_pic.PNG",
+        "abstract": "I was hired as a \"cleared\" (government security clearance supporting) software engineer intern at Microsoft. I was onboarded and then put to work on a starter project where I created a simple web page and then set it up to be accessible online using Azure as a hosting service. As part of this project, I had to learn how to do various things for the first time, including creating a web page, setting up a cloud hosting service, deploying a webpage on a hosting platform, and publishing that web page through the hosting platform to the internet at large. After this initiation into what cloud services, specifically Azure, are and can do, I was assigned to the demand2land team which was focused on communicating development need, service availability, and new service requests across a variety of teams internal to Microsoft. \n\n My project was “work on integrating our demand2land tool with multiple external data sources. Engineering groups are updating their statuses in other tooling that could feed insights into this tool and we want to look at all the possible ways we can take in this data to overlay with D2L statuses, and also look for opportunities to expose the data from D2L to give insights to other tools in the environment”. By completing this project I would improve the functionality of an integral tool for both sales and engineering departments of Microsoft’s government support section. \n\n I completed 2 priority 0 (primary goals) tasks on that project, integrating the D2L tool with Azure DevOps, and integrating it with OneCompliance data feeds. To accomplish this task, I used the pre-existing architecture for D2L which was Microsoft's proprietary “powerBI” as well as ADO and Kusto. I learned how to use and work within all three of these tools, coding most of my internal tooling using the powerBI tool powerAutomate, ADO queries, and Kusto queries (similar to SQL). I also learned various things related to the cleared side of the job, but thankfully most of my project was not government confidential or higher classification. "
+    }  
+    ]
+}
+
+

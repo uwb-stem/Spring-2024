@@ -1,0 +1,119 @@
+
+
+{
+    "csse": [
+      
+        {
+           "time": "2:00-2:15",
+           "projectId": "csse-4-200",
+           "title": "Accelerating Region Builds by Streamlining Cross-Team Communication",
+           "studentName": "Lucas Robinson",
+           "studentMajor": "CSSE",
+           "projectType": "Internship or Job opportunity",
+           "facultyAdvisor": "Dr. Laurie Anderson",
+           "posterLink": "./posters/csse/robinsonlucas_4232649_121262497_capstonePosterLucasRobinson.PNG",
+           "abstract": "During my internship with Amazon Web Services (AWS), I developed a project that extended the existing issue management system using native serverless AWS services. The project was to build a backend service that would allow users to submit a single request intended for several teams in different regions while requiring minimal information to route the request. \n\n The project was focused on developing a more intuitive process for requesting work when individuals were uncertain who to make requests from or where to send them. This idea arose from the difficulty some teams were having with routing requests or meeting Service Level Agreements (SLAs) when building out features in new Regions. Due to the scale of AWS, there are numerous teams building any given service. Requesting work or reporting bugs required individuals to know the exact team and which route that team preferred to receive requests on to file an issue. This was an error prone process that frequently resulted in manual reprocessing of tickets by the receiving team and potentially missed SLAs due to incorrectly filed requests. These problems all combined into a frustrating customer experience.\n\n I utilized a serverless architecture of AWS services including API Gateway, Lambda, DynamoDB, and Simple Storage Service to build application programming interfaces (APIs) that would meet the project goals. I also designed and implemented an algorithm that incorporated data defined from users of my service and other internal services to achieve the necessary routing functionality of the project. With that routing algorithm, a user would be able to request work from another team knowing only their own issue and the region they wanted it to be addressed in.\n\n Adoption of this service would lead to a decrease in time spent grooming backlogs of approximately 5 hours per week per team, or roughly 5,000 hours per year. It would also improve the teams’ ability to meet their SLAs, improving the customer experience and the velocity of other teams’ development processes regarding building out new regions. \n\n In addition to the issue management project, I worked with the team throughout the 2023/2024 school year on projects and services they owned. This work involved contributing to the front end of an internal web service, modifying an infrastructure-as-code linter, and migrating one major section of the team’s issue dashboard. These projects allowed me to continue refining my technical and soft skills such as managing code with git, front end and back end web development with React and APIs, and communicating by learning to ask better questions and speak up when blocked on a project. "
+       },
+       {
+        "time": "2:15-2:30",
+        "projectId": "csse-4-215",
+        "title": "SEAL: Streamlined Data Dashboard",
+        "studentName": "Anh Nguyen",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Laurie Anderson",
+        "posterLink": "./posters/csse/nguyenanh_4232962_121278903_AnhNguyen_CSS 497 Poster.png",
+        "abstract": "Sensors, Energy, and Automation Laboratory (SEAL) is an interdisciplinary lab dedicated to tackling challenges in various fields like medicine, avionics, wearable tech, defense, energy, and sustainability. SEAL actively fosters innovation by facilitating the creation of new startups, collaborating with industry partners, publishing research papers, and developing software solutions including websites, apps, and scripts.\n\n Despite having a website for showcasing projects and facilitating communication with external organizations, SEAL lacked an internal platform for managing projects and team members efficiently. During my time at SEAL, I worked with the web development team to create a comprehensive dashboard. This dashboard serves as a centralized hub, displaying real-time updates on team members' statuses, their assigned tasks, and the progress of each project they're working on. The intuitive interface allows the lab director and leaders to quickly assess the status and performance of projects and team members, easing productivity and efficiency.\n\n Upon completion of this project, SEAL now has a user-friendly website and app that enables associates to track their tasks, manage projects, and monitor overall productivity. The app seamlessly integrates data from the lab's Google Sheets and Google Docs, providing a centralized platform for easy access to documents and streamlined collaboration. This integrated approach enhances workflow management, enabling associates to prioritize tasks, set deadlines, organize projects effectively, and ultimately optimize productivity across the lab. "
+    },
+    {
+        "time": "2:30-2:45",
+        "projectId": "csse-4-230",
+        "title": "Diagnostic Assessment Tool",
+        "studentName": "Kamryn Corley",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Laurie Anderson",
+        "posterLink": "./posters/csse/corleykamrynr_4230599_121251131_Slide1.jpeg",
+        "abstract": "Microsoft Learn is an online learning platform filled with an immense amount of learning content for users. Learn offers a variety of interactive learning paths, modules, and resources designed to help individuals develop skills in Microsoft technologies at their own pace. A feature that is a part of Learn is Skill Assessments. Skill assessments address the challenge of content overload on Microsoft Learn, guiding learners through personalized assessments and tailored learning paths. Assessments enhance course completion rates and drive users towards certifications and Applied Skills credentials. This internship focused on enhancing the Diagnostic Skill Assessments tool. The project involved a detailed analysis and refinement of the tool’s user interface and experience (UI/UX), aiming to make it more intuitive and effective for MS Learn learners. \n\n During the project, I conducted a heuristic analysis of the skill assessments tool's UI/UX, created discussion guides for the interviews, conducted usability study interviews and focus groups to gather feedback on their experience, satisfaction, and suggestions for improvement, provided recommended changes, offered opportunities for improvement, and presented findings and recommendations to the Product Management and project teams within Worldwide Learning. \n\n The internship resulted in a set of actionable improvements to the Diagnostic Skill Assessments tool. These enhancements led to a more user-friendly interface, a reduced learning curve for new users, and more accurate skill assessments aligned with individual learners’ needs and gave more personalized recommendations to minimize the overwhelming content.\n\n The significance of the work done during the internship is its impact on the user’s learning experience. By improving the Diagnostic Skill Assessments tool, the project contributed to a more engaging and efficient learning environment on MS Learn. "
+    },
+    {
+        "time": "2:45-3:05",
+        "projectId": "csse-4-245",
+        "title": "Vision Speak",
+        "studentName": "Danny Roubine\n\nMomin Jafri",
+        "studentMajor": "CSSE",
+        "projectType": "Group project - Student defined",
+        "facultyAdvisor": "Dr. Laurie Anderson",
+        "posterLink": "./posters/csse/roubindanny_3991544_121262620_CSS 497 Poster-1.jpg\n\n./posters/csse/jafrimomin_4268251_121289462_JafriPoster_Final.jpg",
+        "abstract": "VisionSpeak is an OCR tool designed to process various image formats and convert Roman alphabet characters into computer text. This extracted text is displayed in a user-friendly text box, where users can translate the text into different languages and utilize speech synthesis to have the text read aloud. The project integrates several advanced APIs to enhance functionality. DeepL is used for accurate and diverse language translation options, ensuring users can access translations in multiple languages with high reliability. EasyOCR is employed for efficient text extraction from images and PDFs, providing robust support for different document types and image qualities. Additionally, ElevenLabs is integrated to offer high-quality speech synthesis, enabling users to listen to the translated text in their preferred language. This feature enhances accessibility, particularly for users with visual impairments or those who prefer auditory learning.\n\n Throughout the development of VisionSpeak, we focused on creating a seamless and intuitive user experience. The application supports various image formats, making it versatile for different use cases. The integration of these APIs not only broadens the tool's capabilities but also ensures that users receive accurate and swift translations and speech synthesis results. VisionSpeak aims to bridge communication gaps by providing easy access to text translation and speech synthesis, making it a valuable tool for educational, professional, and personal use. The project’s commitment to using cutting-edge technology underscores its potential to evolve and adapt to future advancements in OCR, translation, and speech synthesis technologies. By prioritizing user accessibility and functionality, VisionSpeak stands out as a comprehensive solution for text extraction and translation needs."
+    },
+    {
+        "time": "3:10-3:25",
+        "projectId": "csse-4-310",
+        "title": "SEAL Application Development Internship",
+        "studentName": "Nathan Ramos",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Robert Dimpsey",
+        "posterLink": "./posters/csse/ramosnathannicholas_3866628_121294251_Ramos_Nathan Poster.jpg",
+        "abstract": "My capstone was my experience as a SEAL App Development Intern. The nature of my work encompasses creating software solutions for the lab as a part of the Sudoku Team. \n\n Initially, my first task was to accomplish basic scripting on the Google Sheets that the lab used to track project progress and other relevant information. Manual input and editing of cells can be tedious and time consuming, so utilizing Apps Script for Scripting as well as built-in formulas served to mitigate that issue. This was achieved through using Apps Script, a built-in platform dedicated to scripting within the Google Workspace. My next major objective was to work on the Dashboard Website, a project aimed at creating a more user and mobile friendly interface for the dashboard. The purpose was to be a more easily usable access point to the dashboard as spreadsheets are not as intuitive as a web application. We utilized TypeScript, React, and Google APIs to build the website and we handled version control on GitHub. I mainly worked on the front-end, ensuring that fetched data was being received and displayed properly and looked presentable to the user. \n\n Finally, my final and most impactful project was the Dashboard Renovation. The objective was to restructure and restyle the existing dashboard spreadsheet into something more streamlined and informative. This was an important improvement over the old version which did not effectively give the user an overview of their goals and progress and overall was not incredibly useful. To accomplish this overhaul, we used Apps Scripts, Google Sheets, and formulas to pull more data from different sheets and add new functionalities. This also included deploying a new version of the script library that the dashboards were using before to facilitate a more automated updating process. \n\n The Sudoku Team would have weekly meetings as a whole group, but subgroups would frequently meet more often than that. The Software Development process was iterative; usually the lab directory would meet with us to discuss features that he wanted implemented, we’d develop, test, review, and deploy the deliverable, and build up new features from there. The outcome so far has been the successful implementation of sheet automation, working prototypes of the dashboard website, and a fully functional, widely used, new dashboard used by all associates in the lab. "
+    },
+    {
+        "time": "3:25-3:40",
+        "projectId": "csse-4-325",
+        "title": "Museé Clio",
+        "studentName": "Luc Debaupte",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Robert Dimpsey",
+        "posterLink": "./posters/csse/LucDebaupte_CapstonePoster.jpg",
+        "abstract": "For my capstone, I did an individual project where I built a management software specifically tailored to car museums. My goal was to build out a web app from scratch using my knowledge from various classes to create this product. I chose this project as I wanted to link my coding skills to my passion for cars, all while building a software solution that could expand into a product.\n\n I set out to build four main features: sales, inventory, tasks, and events. These features would allow museums to conduct their day-to-day business operations from one location. These features together allow them to keep track of their inventory, events happening, tasks needed to be completed, and provide sales analytics for various time periods. Furthermore, all the main features are built in such a way as to be expandable and tailorable. Keeping in mind that I aimed to make this project expandable and tailorable, I built this web app using Next.js, a react framework, and AWS for my cloud architecture. In summary, my project not only allowed me to apply my skills in coding and problem-solving but also expanded my practical skills to a real-life scenario where people and businesses would benefit. The next step is to communicate with people working at car museums to understand the specific details of how they can benefit from such software. These tailored improvements would allow this management software to make an impact on the day-to-day business of car museums. "
+    },
+    {
+        "time": "3:40-3:55",
+        "projectId": "csse-4-340",
+        "title": "Aptos Labs Internship - Frontend Engineer",
+        "studentName": "Philip Vu",
+        "studentMajor": "CSSE",
+        "projectType": "Current employer",
+        "facultyAdvisor": "Dr. Robert Dimpsey",
+        "posterLink": "./posters/csse/vuphilip_4140404_121234004_Poster.png",
+        "abstract": "This capstone project explores software engineering within the Web3 industry, characterized by decentralized infrastructure and technologies such as cryptocurrencies, non-fungible tokens (NFTs), and blockchains. During my internship, I focused on cryptography, backend development, web development, and mobile development, contributing to several high-impact projects. Notably, I developed and deployed features that supported thousands of users and managed millions of requests. Key accomplishments mentioned in this capstone include the development of a Rating Prompt model, essential for efficiently gathering user feedback. Additional deliverables would include the development of a serverless backend designed to scale seamlessly to handle millions of requests per month, optimized with caching mechanisms. Lastly, another project involved the integration of OpenID Connect (OIDC)-supported accounts using zero knowledge proofs on the blockchain, providing a seamless onboarding experience onto the Aptos network using OAuth 2.0. These endeavors aimed to enhance the functionality and user experience of existing Aptos products. The successful rollout to production was crucial for user feedback and retention. This capstone project not only demonstrates technical proficiency in full-stack development but also underscores the importance of strategic problem-solving and innovation in the Web3 industry. It highlights the significance of effective communication, project management, and the capability to deliver impactful solutions in a production environment."
+    },
+    {
+        "time": "3:55-4:10",
+        "projectId": "csse-4-355",
+        "title": "Protect the Network: Policy Proxy",
+        "studentName": "Hilden Wong",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Robert Dimpsey",
+        "posterLink": "./posters/csse/wonghilden_4104894_121279614_Copy of Capstone Poster.png",
+        "abstract": "Background:\n In modern software development, clients interacting with backend services through API Gateways often face the risk of misconfiguring proxies. Such misconfigurations can lead to security vulnerabilities, improper traffic routing, and other operational issues. As a Software Engineer I on the Developer Gateways team, I focused on mitigating these risks by developing a robust solution to ensure proper configuration and secure interactions between client applications and backend services. \n\n Methodology:\n To address the issue of misconfigured proxies, I implemented a Policy Proxy. This proxy acts as a transparent layer that evaluates the contents of client requests, determining whether to allow or deny them based on predefined policies. The Policy Proxy was developed using Go and Open Policy Agent (OPA), chosen for their flexibility and robust policy enforcement capabilities. The project was structured to include a server, a reverse proxy, and utility functions, all of which were integrated into a CI/CD pipeline for continuous deployment and testing. \n\n Outcomes:\n The implementation of the Policy Proxy will significantly enhance the security and reliability of client interactions with the API Gateway. By evaluating and flagging requests based on policy adherence, the proxy ensured that only properly configured requests were processed. This reduced the likelihood of security breaches and operational disruptions. \n\n Conclusion:\n The Policy Proxy effectively mitigates the risks associated with misconfigured proxies in client applications. By providing a transparent, policy-driven layer for request evaluation, it enhances security, reliability, and ease of use. This project demonstrates the importance of robust configuration management in maintaining secure and efficient communication between client applications and backend services."
+    },
+    {
+        "time": "4:10-4:25",
+        "projectId": "csse-4-410",
+        "title": "The Buffer System",
+        "studentName": "Sam Singh",
+        "studentMajor": "CSSE",
+        "projectType": "Current employer",
+        "facultyAdvisor": "Dr. Robert Dimpsey",
+        "posterLink": "./posters/csse/singhsam_4230610_121300571_SamneetSinghCapstonePoster.jpg",
+        "abstract": "My capstone project was for Dunn Lumber Company, a Seattle-based building material supplier. Dunn Lumber Company experienced a rapid growth during covid and is on track to reach these peaks again in the upcoming years. Consequently, the lack of time to prepare for this growth resulted in difficulties fulfilling customer demand. In response, my team and I completed a comprehensive overhaul of their order placement process to ensure efficiency and keep our customer’s trust.\n\n Specifically, tasks such as inventory sourcing, purchase order placement, and delivery coordination were redistributed between teams. Notably, I created a workflow automation tool named 'BT Bot' to aid these operations. \n\n This project was built using several tools, most notably Epicor BisTrack (BT), Microsoft SQL Server, Python, PowerShell and Excel. When all put together, this allowed for a robust solution which integrated previous processes while also introducing the new system as to not disrupt the flow of the business. \n\n This improved system enables Dunn Lumber to keep up with high demand and maintain the trust of their customers, which is vital for their market presence and continued growth. The implemented system serves to create a significantly more efficient order placement process for the organization. It also proved to be an excellent learning experience providing excellent growth in several languages, frameworks, and soft skills. "
+    },
+    {
+        "time": "4:25-4:40",
+        "projectId": "csse-4-425",
+        "title": "Clean Fridge: A Fridge Organizing Tool",
+        "studentName": "Bryan Lin",
+        "studentMajor": "CSSE",
+        "projectType": "Individual project - Student defined",
+        "facultyAdvisor": "Dr. Robert Dimpsey",
+        "posterLink": "./posters/csse/linbryanhsiao_4016047_121264087_Lin_Bryan_Poster_Img.png",
+        "abstract": "My individual capstone project addresses the issue of expired food in a shared fridge. Expired food not only produces a bad odor but also wastes space. Most importantly, we had to clean up the mess ourselves, as it most likely belonged to previous renters. To prevent this recurring issue, we need a better method to manage and monitor the contents within the fridge, leading to this project’s development.\n\n During the development process, each week followed an agile development cycle: setting a weekly goal, followed by design, implementation, and testing. The first few weeks were challenging due to a lack of experience with tools, but mastering these tools was essential for achieving the project’s goal. \n\n By the end of the development, I gained valuable experience with the agile development cycle, which provided me with insights on how to manage future projects effectively. I became proficient with various tools, including Flask and Python for web app frameworks, as well as HTML, CSS, and JavaScript for frontend development. Ultimately, I developed an app that successfully meets the goals, enabling easy monitoring of the fridge and allowing collaborative management. The app also offers additional features to improve the management process, such as expiration reminders for food expiring within seven days, quick actions to add or remove food with a few clicks, and a search function to aid in managing larger inventories. "
+    }
+    ]
+}
+
+

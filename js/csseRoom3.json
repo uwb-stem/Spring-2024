@@ -1,0 +1,130 @@
+
+
+{
+    "csse": [
+      
+        {
+           "time": "2:00-2:15",
+           "projectId": "csse-3-200",
+           "title": "",
+           "studentName": "Michael Robinson-Elmslie",
+           "studentMajor": "CSSE",
+           "projectType": "Internship or Job Opportunity",
+           "facultyAdvisor": "Dr. Munehiro Fukuda",
+           "posterLink": "./posters/csse/michael_4102858_121300589_michael_poster.png",
+           "abstract": "The Distributed Systems Laboratory (DSLab) is applying Agent-Based Modeling (ABM) to databases in interpretive environments to identify data attributes or shapes from big graph data maintained over a cluster system. For this purpose, a library developed by DSLab, MASS (Multi-Agent Spatial Simulation) Java, can be used to populate agents — autonomous mobile objects — over a distributed shared space called places. DSLab has updated a component of MASS Java, GraphPlaces, to enable shared multi-user operations so MASS can be used to facilitate a multi-user graph database.\n\n As an undergraduate research assistant at DSLab, I was tasked with extending the current graph benchmark set to include the new version of MASS Java and Hazelcast. These benchmarks would be used to evaluate both libraries’ parallel performance and programmability in the context of a multi-user graph database across three key areas: graph creation, graph queries, and graph applications.\n\n Working with Hazelcast, I successfully implemented a graph creation mechanism to load graph data from a DSL file. I also implemented various graph queries and ported over two graph applications already written in MASS Java – triangle counting and connected components – utilizing Hazelcasts predicate API. Furthermore, the same graph queries were implemented in MASS. To do so, I updated MASS Java to support distributed queries natively. \n\n The results of my work demonstrated that MASS Java offers a more concise programming experience, requiring approximately 45% less code to implement the same benchmark applications compared to Hazelcast. However, this conciseness comes with a 22% higher cyclomatic complexity, indicating more intricate control structures within the code. \n\n Performance benchmarks revealed that MASS is, on average, 128% faster than Hazelcast in graph creation. However, MASS slightly underperforms Hazelcast in processing graph queries, being about 10% slower. For specific applications, MASS showed a 200% faster execution time in triangle counting. This advantage was reversed when utilizing a caching mechanism in Hazelcast, with MASS being 87% slower. Finally, MASS was 93% slower than Hazelcast when identifying the connected components in a graph. "
+       },
+       {
+        "time": "2:15-2:30",
+        "projectId": "csse-3-215",
+        "title": "Development of FLAME GPU 2 and MASS CUDA Benchmark Programs",
+        "studentName": "John Nguyen",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Munehiro Fukuda",
+        "posterLink": "./posters/csse/nguyenjohn_4261032_121246988_CapstonePoster_JohnNguyen.png",
+        "abstract": "Agent-based models (ABMs) are simulations used to study the actions and interactions of agents within an environment. ABMs can be used to simulate models that are hard to create using only mathematical formulae such as traffic simulations and the spread of an epidemic. The challenge of ABMs is that these simulations demand high spatial scalability and fast execution to scale up their simulation space. For ABMs, GPUs have emerged as a promising alternative to cluster systems due to their high number of cores. A single GPU can compete with a moderately sized cluster system in core count. MASS CUDA and FLAME GPU 2 are GPU libraries that strive to provide users with the tools to create ABMs that utilize GPUs relatively easily compared to building an ABM from scratch using CUDA. MASS CUDA is currently being developed at the University of Washington Bothell by the Distributed Systems Laboratory (DSLab). I have been tasked with creating benchmark programs in FLAME GPU 2 and updating/debugging their MASS CUDA version so a programmability and execution performance comparison between the two versions can be conducted. Specifically, I was tasked with creating/updating programs for two simulations, Heat2D and Social Networks. These benchmark comparisons are important because MASS CUDA is still in development. The comparisons will be used to understand MASS CUDA’s strengths and help identify any areas of possible improvement.\n\n From my findings about the programmability of both libraries, MASS CUDA generally had more lines of code. However, the cyclomatic complexity of FLAME GPU 2 was usually around double the complexity of MASS. FLAME GPU 2 also had a higher boilerplate percentage, indicating that the library is more verbose than MASS CUDA.\n\n For the execution performance, MASS CUDA had a lower initialization time than FLAME GPU 2. However, the simulation time of FLAME GPU 2 was significantly faster than MASS CUDA’s. This resulted in FLAME GPU 2 having faster total time spent to simulate Heat2D and Social Network. "
+    },
+    {
+        "time": "2:30-2:45",
+        "projectId": "csse-3-230",
+        "title": "Ferrum Refinery: An Asychronous Rust MapReduce Framework",
+        "studentName": "Matthew Jeffries",
+        "studentMajor": "CSSE",
+        "projectType": "Individual Project - Student Defined",
+        "facultyAdvisor": "Dr. Munehiro Fukuda",
+        "posterLink": "./posters/csse/MatthewJeffries.png",
+        "abstract": "The Ferrum Refinery project aims to develop a robust and efficient MapReduce framework using the Rust programming language. This framework addresses the need for high-performance data processing systems to handle large-scale computations across distributed environments. Rust's memory safety and concurrency guarantees make it an ideal choice for building such a framework, ensuring reliability and efficiency in data processing tasks. This project provides a modern alternative to existing MapReduce frameworks, leveraging Rust's unique features to achieve superior performance and safety. By building Ferrum Refinery, I aim to offer developers a tool that can handle complex data processing tasks with minimal risk of runtime errors or security vulnerabilities.\n\n The project culminated in a functional prototype of the Ferrum Refinery MapReduce framework, demonstrating its ability to perform large-scale data processing efficiently. Initial benchmark tests showed that the framework could handle significant data loads and complex computations with high performance.\n\n The true significance of Ferrum Refinery lies in its potential to revolutionize how large-scale data processing tasks are handled. By providing a safe and efficient alternative to existing solutions, this framework can empower developers to build more reliable and performant data processing pipelines. Furthermore, it showcases the practical advantages of using Rust for distributed computing, contributing to the broader adoption of Rust in the software industry.\n\n In conclusion, the Ferrum Refinery project successfully demonstrates the feasibility and benefits of a Rust-based MapReduce framework. It addresses critical performance and safety issues in large-scale data processing, offering a promising solution for future developments in this field."
+    },
+    {
+        "time": "2:45-3:00",
+        "projectId": "csse-3-245",
+        "title": "iCare: Exploring Large Language Models For Mental Health Chatbot",
+        "studentName": "Joyce Lee",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Dong Si",
+        "posterLink": "./posters/csse/leejoyce_4001266_121146107_iCare Capstone Poster.png",
+        "abstract": " The iCare project, part of Dr. Dong Si’s DAIS Lab, focuses on enhancing mental health support through AI-driven technologies. It aims to improve patient well-being and provide educational coaching for families and caregivers. \n\n My role in the iCare project centered on using Large Language Models (LLMs) for text classification to detect users' personality traits. This understanding helps chatbots generate more meaningful responses, enhancing mental health assistance. I experimented with various LLMs, including BERT, DistilBERT, Electra, Longformer, Mixtral, and Llama2, selecting and fine-tuning models based on factors like model weight and suitability for specific tasks. My work involved exploring multiclass, multilabel, and binary classification methods to determine the most effective approach. I also searched for and evaluated datasets for training the models, focusing on data quality and relevance, and performed rigorous data cleaning and augmentation to improve model accuracy. \n\n One significant achievement was the successful fine-tuning of two DistilBERT models. The first model, fine-tuned for multi-class classification, achieved a 94% accuracy rate in categorizing texts into the Big Five personality traits. The second model addressed limitations by identifying negative modifiers such as \"never\" or \"not,\" and I published a pip module to facilitate its use in various applications. \n\n The project’s significance lies in its contribution to advancing mental health support systems through AI. By using LLMs for personality trait detection, iCare enhances interactions between users and support systems, leading to more effective support and improved well-being for individuals facing mental health challenges."
+    },
+    {
+        "time": "3:00-3:15",
+        "projectId": "csse-3-300",
+        "title": "Developing a Backend for iCare's AI Powered Chatbots",
+        "studentName": "Joe Berria",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Dong Si",
+        "posterLink": "./posters/csse/berriajoe_4139624_121128072_Poster.jpg",
+        "abstract": "iCare is an AI powered application developed by the Dais Lab at the University of Washington. This project aims to provide mental health support in the form of two chatbots. Coachbot, to help users learn and practice empathetic responses to mentally stressful situations, and Carebot, to provide a therapeutic conversation. Coachbot will provide a situation for the user to respond to. It will grade the user’s response for emotional reaction, exploration and interpretation. This is to teach how one could better respond to someone in a mentally distressed state. Carebot provides a traditional chatbot that is trained to give empathetic and understanding responses while asking the user open ended questions to maintain a conversational flow.\n\n My work was focused on the back end of the project. I began by porting the original back-end server from Flask to Django and designed the API endpoints. I created the Docker images that would run the server and database for the project and deployed to Dais servers. I made a microservice that would connect the AI models of the chatbots to the Docker containers. Testing stability and response times. Creating and documenting the back-end endpoints allowed the frontend team to begin developing the chat interfaces.\n\n The significance of this project is where it leverages the advancements of large language models and machine learning technologies to provide a personality score of the user that will be used to tailor its responses to users’ questions and concerns. All conversations and personality scores are processed on the Dais server using open source LLMs. This makes it so we never need to make external calls. This provides security, privacy and performance for the user. "
+    },
+    {
+        "time": "3:15-3:30",
+        "projectId": "csse-3-315",
+        "title": "Skyblock Improvements: A Quality-Of-Life Mod",
+        "studentName": "Derick Dewitt",
+        "studentMajor": "CSSE",
+        "projectType": "Individual Project - Student Defined",
+        "facultyAdvisor": "Dr. Erika Parsons",
+        "posterLink": "./posters/csse/DDeWitt_CSS497_Poster_Draft-8-1.png",
+        "abstract": "This project focuses on the development of a system for a set of client modifications (mod) for the popular server Hypixel1 in the game Minecraft2. The mod’s design is focused on the backend, to allow for future features to be added with relative ease.\n\n On the backend, information is traced from a few specific sources and stored in RAM, with some additional persistent storage in the client’s config folder. Sources include Screens, Chat, the Scoreboard, and the Tab List. \n\n Each has their own dedicated modules from which individual features can pull from. The Generic Profit Manager, for example, pulls from the Sacks and Bazaar modules (themselves pulling from the Chat and Screen modules) and multiplies the stored bazaar price of a given item by the number of that item added to or removed from the Sacks- creating a ‘Total Profit’ value which is then displayed to the player through the TickandRender module and ScreenUtils’ draw method. \n\n Based on this, a variety of customizable profit managers can be derived by simply including or excluding items or specifying that an item uses the “Buy” price instead of the “Sell” price or vice-versa. One example is the Bat Firework3 profit manager, which only tracks the “Green Candy” and “Purple Candy” items. It’s also possible to derive an “Expected Cost” of items from this, but that has not been implemented at this time and is currently out of scope of the project. \n\n This project also includes features not currently found within any other mod: A dynamic Helmet Retexturer was added, granting the player the ability to cosmetically alter the appearance of what they wear. The granularity of this effect had to be dialed up heavily- allowing the player to directly interact with the cluster count- in order to ensure that a visual that looks ‘good’ was possible to create for many different helms. \n\n K-means clustering was chosen as the algorithm for the Helmet Retexturer because it was something that fit well with color-based data, where anything with a ‘relative closeness’ to a given color can be matched closely to it without destroying the shading present within the original images. \n\n Overall, the result of this project has been successful! The sponsors have had positive feedback for every feature created, and performance concerns have been mitigated and, in some cases, eliminated outright."
+    },
+    {
+        "time": "3:30-3:45",
+        "projectId": "csse-3-330",
+        "title": "A Gamification of Upper Limb Rehabilitation Using VR",
+        "studentName": "Trevor Rosenstrom",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Erika Parsons",
+        "posterLink": "./posters/csse/MATCH_3_Poster_TrevorRosenstrom_Final.jpg",
+        "abstract": "This capstone project addresses the challenges faced by patients with upper-limb weaknesses in adhering to prescribed therapy regimens. The discontinuation of the Myo Armband in 2018 has left clinicians and patients reliant on outdated software, complicating effective rehabilitation. Traditional physical therapy exercises often suffer from monotony, lack of motivation, and difficulty in tracking progress, which can significantly impede the recovery process and the attainment of full mobility and strength.\n\n Our project aims to develop an innovative Virtual Reality (VR) game designed to assess and facilitate physical therapy exercises, providing an engaging and interactive solution for both patients and clinicians. By incorporating gamification into the rehabilitation process, we seek to transform mundane exercises into motivating and enjoyable activities, thus enhancing patient compliance and therapeutic outcomes. Additionally, the VR game will offer robust tracking and access to clinical progress through game data, allowing clinicians to monitor and adjust therapy regimens effectively. \n\n This project not only revitalizes the use of VR in medical applications but also leverages the power of gamification to improve patient engagement and rehabilitation success. Through this innovative approach, we aspire to make physical therapy a more dynamic, motivating, and effective experience for patients recovering from upper-limb weaknesses. \n\n"
+    },
+    {
+        "time": "3:45-4:00",
+        "projectId": "csse-3-345",
+        "title": "Refactoring Neural Simulation Initialization with GraphML",
+        "studentName": "Omar Elgazzar",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job Opportunity",
+        "facultyAdvisor": "Dr. Mike Stiber",
+        "posterLink": "./posters/csse/elgazzaromar_4253558_121218523_CSS 497 Capstone Poster Omar Elgazzar.jpg",
+        "abstract": " For my capstone, I worked with the Intelligent Networks Laboratory (INL) on their graph-based simulation, Graphitti which runs two types of simulations, Biological Neural Networks(BNNs) and 911 communication networks. The 911 simulation is more recent and uses GraphML to describe the initial structure of the simulation.\n\n GraphML is an XML extension that consists of node, edge, and graph descriptors. These descriptors allow additional keys, which are user-defined data points that can be added to the description of a node or edge or to the entire graph.\n\n The 911 simulation uses GraphML to define the vertices and connections that the simulation uses in its steps. The file holds parameters such as the (x, y) location of each node, its name, type, etc. These parameters are then loaded into the simulator using the GraphManager singleton, which is a wrapper of the boost library.\n\n Previously, GraphML was only used in the 911 simulation. The BNN simulations use an XML file that holds both its initialization and simulation parameters. The purpose of the capstone was to migrate the initialization parameters from the XML files to GraphML, so that the XML files are only used in simulation configuration, as well as parameters specific to a certain simulation instance.\n\n The process of migrating to GraphML started with creating simple GraphML files for the BNN simulations that only held the (x, y) locations of each neuron, and changing only that section of the code. Once that change was ensured to be compatible, more parameters were added to the GraphML files, specifically the type of neuron, and whether that neuron was active. Finally, any extra code/files that these parameters used were removed. The result of this work was that the BNN simulations are refactored to use GraphML for parameters such as location and type, and that the BNN code is more like the 911 code, allowing for more sharing and inheritance of methods.\n\n The largest significance of this work is that GraphML allowed for the simplification of the simulation, specifically the parameter loading process. Before, the simulation would load neuron types and activity from large XML lists and require a ParameterManager class to load them. Now all the simulator needs is the GraphML file. Furthermore, one GraphML file can be used for multiple simulations, further reducing the number of dependencies. "
+    },
+    {
+        "time": "4:00-4:15",
+        "projectId": "csse-3-400",
+        "title": "Enhancing IT Infrastructure for a Multinational Retail Chain ",
+        "studentName": "Prajeet Pounraj",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job Opportunity",
+        "facultyAdvisor": "Dr. Jeffrey Kim",
+        "posterLink": "./posters/csse/pounrajprajeet_4113664_121287434_Capstone_Poster_Final_Prajeet.png",
+        "abstract": "This capstone report details my role as a System Release Engineer at Capgemini, where I focused on enhancing the IT infrastructure of a major multinational retail chain. Key initiatives of the project included upgrading Point of Sales (PoS) systems, implementing ELO systems for mobile order processing, and transitioning from physical to virtual environments across approximately 17,000 stores and 45,000 endpoints. The purpose of this project was to improve the operational efficiency, reliability, and scalability of the client’s IT infrastructure, essential to support the dynamic demands of the retail industry and to ensure robust cybersecurity measures. Additionally, the project aligned with my personal goal of gaining hands-on experience in a real-world IT environment and deepening my expertise in cybersecurity.\n\n The project was executed using Agile methodologies, with iterative sprints due to the dynamic nature of the project. The successful implementation of the PoS system upgrades streamlined transaction processing, while the ELO system implementation reduced manual errors and enhanced customer experience. The transition to virtual environments increased scalability and operational efficiency. These enhancements significantly prepared the client's IT infrastructure for future growth, leading to more efficient operations and better customer service across the retail chain. For me personally, this project provided invaluable hands-on experience and led to certifications in various technical domains, contributing greatly to my professional development. The use of Agile methodologies facilitated a flexible and iterative approach to problem-solving, and the successful outcomes not only improved the client’s operational capabilities but also provided me with significant learning opportunities and professional growth in the field of cybersecurity and IT management. "
+    },
+    {
+        "time": "4:15-4:30",
+        "projectId": "csse-3-415",
+        "title": "",
+        "studentName": "Kai Zhang",
+        "studentMajor": "CSSE",
+        "projectType": "Group Project - Student Defined",
+        "facultyAdvisor": "Dr. Jeffrey Kim",
+        "posterLink": "",
+        "abstract": "Our capstone project focuses on developing a user-friendly appointment scheduling website for Lijie Cleaning LLC. The primary objective was to streamline the booking process for clients and enhance the efficiency of appointment and client account management for employees.\n\n We designed and implemented a comprehensive system that allows clients to book cleaning services easily, receive notifications, and manage their profiles. The system also includes an admin portal for employee use, enabling them to view, modify, and manage appointments and user accounts.\n\n The project was undertaken to address the inefficiencies in the existing manual scheduling process, which was prone to errors and time-consuming. By automating the booking and management processes, we aimed to improve customer satisfaction and operational efficiency for the company.\n\n The project successfully delivered a functional website with features such as user authentication, a shopping cart system, real-time appointment scheduling, and an admin management portal. The system ensures data integrity, handles multiple user connections simultaneously, and complies with security standards by hashing user passwords.\n\n This project significantly enhances the user experience by providing a seamless and efficient booking process. It also reduces administrative overhead for employees, allowing them to focus more on service delivery. The skills and knowledge gained during this project, including web development, database management, and agile methodologies, are invaluable for our professional growth. In conclusion, our project not only solved the problem of inefficient appointment scheduling but also set a foundation for scalable and secure web-based solutions for service-oriented businesses. "
+    },
+    {
+        "time": "4:30-4:45",
+        "projectId": "csse-3-430",
+        "title": "",
+        "studentName": "Kyle Huang",
+        "studentMajor": "CSSE",
+        "projectType": "Group Project - Student Defined",
+        "facultyAdvisor": "Dr. Jeffrey Kim ",
+        "posterLink": "",
+        "abstract": "Our capstone project focuses on developing a user-friendly appointment scheduling website for Lijie Cleaning LLC. The primary objective was to streamline the booking process for clients and enhance the efficiency of appointment and client account management for employees.\n\n We designed and implemented a comprehensive system that allows clients to book cleaning services easily, receive notifications, and manage their profiles. The system also includes an admin portal for employee use, enabling them to view, modify, and manage appointments and user accounts.\n\n The project was undertaken to address the inefficiencies in the existing manual scheduling process, which was prone to errors and time-consuming. By automating the booking and management processes, we aimed to improve customer satisfaction and operational efficiency for the company.\n\n The project successfully delivered a functional website with features such as user authentication, a shopping cart system, real-time appointment scheduling, and an admin management portal. The system ensures data integrity, handles multiple user connections simultaneously, and complies with security standards by hashing user passwords.\n\n This project significantly enhances the user experience by providing a seamless and efficient booking process. It also reduces administrative overhead for employees, allowing them to focus more on service delivery. The skills and knowledge gained during this project, including web development, database management, and agile methodologies, are invaluable for our professional growth.\n\n In conclusion, our project not only solved the problem of inefficient appointment scheduling but also set a foundation for scalable and secure web-based solutions for service-oriented businesses.\n\n "
+    }  
+    ]
+}
+
+

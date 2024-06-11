@@ -1,0 +1,97 @@
+
+
+{
+    "csse": [
+      
+        {
+           "time": "2:00-2:15",
+           "projectId": "csse-8-200",
+           "title": "GhostPeerShare P2p Network Application",
+           "studentName": "Hemza Al-Shamari",
+           "studentMajor": "CSSE",
+           "projectType": "Faculty Research",
+           "facultyAdvisor": "Dr. Brent Lagesse",
+           "posterLink": "./posters/csse/alshamarihemzarashed_4122192_121105564_Peer 2 Peer Network.png",
+           "abstract": "The GhostPeerShare project aims to develop a secure peer-to-peer network application to facilitate private media sharing between devices. This project, undertaken in partnership with master’s student Jeffrey Murray Jr. and Professor Brent Lagesse focuses on creating a Flutter application that provides end-to-end encrypted connections. The motivation behind this project is to enhance digital privacy and ensure secure communication between two peer who would like to share information to each other securely. This project is a proof of concept. \n\n During the project, I integrated multiple open-source APIs, and Dart package such as Bluetooth Low Energy to establish peer-to-peer scanning and connection. I also worked on Figma prototype and design documentation. In the Figma prototype and design documentation, I include that the application’s final version will support various encryption methods such as RSA, Diffie-Hellman, and Elliptic-Curve Diffie-Hellman (ECDH) to guarantee the privacy and security of the transmitted data. Additionally, I have prioritized and developed a user-friendly interface to make the application accessible and easy to use.\n\n The result of this project is version 1.0 which will be continued throughout Autumn 2024 by my other team members who will continue with this capstone project. Version 1.0 has a complete developed User Interface, abstract classes, and the ability to scan, connect, disconnect between two Android devices.\n\n The significance of the GhostPeerShare project lies in its potential to enhance digital privacy and security for users sharing sensitive information. By employing advanced cryptographic techniques and versatile connection methods, the application ensures that users can communicate and share media safely and efficiently. This project not only contributes to the field of secure communication but also provides a practical solution for real-world scenarios where privacy and connectivity are critical. "
+       },
+       {
+        "time": "2:15-2:30",
+        "projectId": "csse-8-215",
+        "title": "GhostPeerShare Application",
+        "studentName": "Ali Elgazzar",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Brent Lagesse",
+        "posterLink": "./posters/csse/elgazzarali_4253844_121224369_Ali's Poster - Final.png",
+        "abstract": "GhostPeerShare is a peer-to-peer file sharing Flutter application for Android which utilizes multiple different encryption methods (Fully Homomorphic Encryption (FHE) in the future) to ensure robust data security and privacy. In addition, GhostPeerShare will serve as platform for proof-of-concept for Professor Brent Lagesse’s Privacy Preserving Video Sharing (PPVS) research project. The purpose of PPVS is to allow for users who aren’t contacts to share sensitive files without needing to expose those files to the public. From January 2024 through Spring 2024, I was tasked with designing GhostPeerShare and starting the implementation of this application. \n\n The result of my work is a comprehensive layout of the goals, use cases, structure, and resources that GhostPeerShare consists of. This documented design served as a framework for the implementation process and will serve as guidance for future students who will continue the implementation of GhostPeerShare. In addition, the result of my work is a first generation prototype of GhostPeerShare, including abstract connection implementation, framework UI pages and elements, and related documentations for all previous work.\n\n In conclusion, GhostPeerShare as the platform for the proof-of-concept of PPVS was properly designed and development of the application has been started and worked through. The significance of GhostPeerShare is that it will allow a future means of PPVS to be realized on a commercial scale, in addition to allowing future students to finish development and continue adding new and useful features to GhostPeerShare. "
+    },
+    {
+        "time": "2:30-2:45",
+        "projectId": "csse-8-230",
+        "title": "Smarty City Research in Bamberg, Germany",
+        "studentName": "Christopher Long",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Brent Lagesse",
+        "posterLink": "./posters/csse/longchristopher_4283950_121299953_Smart City Bamberg Colloquium Poster 2024.png",
+        "abstract": "Over the summer of 2023, I collaborated with the CrowdAnym project at the University of Bamberg, in Bamberg, Germany to utilize Wi-Fi sensors for measuring foot traffic. Bamberg, with its narrow medieval-era streets and significant influx of tourists during festivals, presents unique challenges related to overcrowding, resource strain, and disruptions to local businesses.\n\n During my 10-week experience, I engaged in hands-on research and experimentation with Wi-Fi sensors designed to capture Wi-Fi probe requests from wireless devices. Weekly meetings with my team and faculty advisor facilitated ongoing evaluation and refinement of our methods. We conducted various experiments, testing the sensors' performance and documenting the outcome. \n\n The primary goal of this project was to develop a reliable system for monitoring pedestrian flow, thereby addressing the challenges posed by Bamberg's crowded streets. By capturing accurate foot traffic data, urban planners can make informed decisions to alleviate congestion, enhance public safety, and optimize resource allocation. \n\n Our experiments revealed critical insights into the operational challenges of Wi-Fi sensors, including issues related to MAC randomization, sensor unpredictability, and inconsistent signal strength. We compiled our findings into detailed tables and derived valuable metrics, which culminated in a comprehensive list of identified problems and recommendations for system implementation. \n\n This research holds significant implications for the future of smart city initiatives. By addressing the practical difficulties encountered in sensor data collection and cleaning, our work contributes to more accurate and meaningful data-driven decision-making processes. The insights gained from this project not only apply to Bamberg but can also be adapted to other urban environments facing similar challenges. \n\n In conclusion, the CrowdAnym project demonstrates the potential of innovative technologies to enhance urban living conditions. By tackling the intricacies of sensor data management, our research paves the way for more effective and efficient smart city solutions, ultimately benefiting both residents and visitors of Bamberg. "
+    },
+    {
+        "time": "2:45-3:00",
+        "projectId": "csse-8-245",
+        "title": "Automated Large-Scale Genome Editing",
+        "studentName": "Hardev Saharan",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Brent Lagesse",
+        "posterLink": "./posters/csse/saharanhardev_4284210_121065835_Hardev's_Poster.jpeg",
+        "abstract": "This project revolved around developing a software tool to make designing guide DNA sequences and donor templates for CRISPR gene editing easier and faster. The goal was to automate picking the right guide sequences next to PAM sites and creating donor sequences to introduce specific changes that will also prevent re-cutting of the DNA. Traditional gene editing methods are laborious, costly, and limited to single-gene modifications. By leveraging CRISPR technology paired with a specific DNA repair pathway, this project seeks to make thousands of targeted edits across multiple genes in the kinetochore, a crucial protein complex involved in cell division.\n\n A significant challenge was understanding the complex biology concepts and existing Python code, as well as handling the efficient printing of results to Excel files. Through this process, I enhanced my debugging skills, learned to manipulate strings, search methods, and read/write Excel files using Python. The resulting software automates the entire process, from identifying PAM sites and ranking guide sequences to designing donor templates and incorporating mutations. It filters guides based on user-defined thresholds and ensures efficient, accurate results.\n\n The significance of this project lies in its ability to conduct unbiased large-scale mutational screens, revealing novel mechanisms and interactions of the kinetochore. This understanding can lead to the development of treatments for diseases associated with aneuploidy, such as cancer and Down syndrome. By automating guide and donor design and following best practices, the tool enhances the productivity and reproducibility of CRISPR-based research, ultimately accelerating the experimental design process and increasing the throughput and consistency of gene editing studies.\n\n Previously, the process for designing a single mutation took 2-3 minutes even for a highly trained PhD student. With this software, any user can generate thousands of mutations in milliseconds. This drastic improvement not only saves time but also democratizes the ability to perform complex genetic modifications, making large-scale scientific experiments feasible for the first time.\n\n In conclusion, this project not only addressed the challenges of manual gene editing but also opened new avenues for large-scale genetic research. The software tool enhances the efficiency and accuracy of CRISPR experiments, providing a valuable resource for scientists. This advancement could significantly impact the study of genetic disorders and the development of new medical treatments, demonstrating the transformative potential of automated gene editing."
+    },
+    {
+        "time": "3:00-3:15",
+        "projectId": "csse-8-300",
+        "title": "Application Security Internship @ Costco",
+        "studentName": "Brandon Bui",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Brent Lagesse",
+        "posterLink": "./posters/csse/buibrandon_4123761_121056514_BuiCapstonePoster.jpg",
+        "abstract": "For my capstone, I had the opportunity to intern with Costco Wholesale IT as an Application Security intern. The application security team’s focus is to identify vulnerabilities within Costco’s code and provide remediation aid for these vulnerabilities, with the goal of preventing these vulnerabilities from occurring in the first place. My primary focus during my internship was to provide additional software development and automation capabilities to my team.\n\n At Costco, and across the industry in general, there is a need for security more focused at the code level towards web, mobile, and desktop applications, especially earlier in software development life cycle. Vulnerabilities identified within deployed code can be anywhere from 30-100 times more expensive to fix than those identified during requirements gathering. This is the goal of my team at Costco; identifying vulnerabilities as early as possible so that they can be remediated sooner and result in a risk reduction for the organization. \n\n In support of this goal, I had the opportunity to gain hands-on experience using application security testing tools, conducting security assessments, and collaborating with software development teams to identify potential security vulnerabilities in various applications such as e-commerce platforms, web applications, and internal systems. One of my primary tasks during my internship was to work with my fellow team members to identify repetitive and time-consuming processes, with the goal of developing automation so that team members could focus on other bigger issues, issues that would make an impact on Costco’s security posture. \n\n All of these efforts resulted in a risk reduction for Costco; the less vulnerabilities, the lower the chance a security incident occurs. Additionally, the automation I developed allowed my team members to focus on more complex issues, and issues that can’t be automated. \n\n Overall, this internship was a fantastic experience to learn about application security, but also more importantly, how a huge company like Costco runs, and what made, and continues to make, Costco so successful. "
+    },
+    {
+        "time": "3:15-3:30",
+        "projectId": "csse-8-315",
+        "title": "Full-stack Event Ticketing System: Boston Event Guide Intern",
+        "studentName": "Xavier Fulkerson",
+        "studentMajor": "CSSE",
+        "projectType": "Internship or Job opportunity",
+        "facultyAdvisor": "Dr. Brent Lagesse",
+        "posterLink": "./posters/csse/Xavier Fulkerson poster.jpg",
+        "abstract": "For my capstone, I interned at Boston Event Guide to create a new event ticketing system to handle event page creation, ticket database logic, and ticket QR code functionality.\n\n The purpose of the project is to support the small development team at Boston Event Guide to create this ticketing system, enabling the team to work on other aspects of the website. The current ticketing system is expiring soon, and the software being used does not contain all of the features required by the company to make a streamlined user experience when navigating the site.\n\n After 400 hours of work, I have made significant progress towards implementing a new ticketing system, and gained experience working in a workplace, attending meetings, collaborating with co-workers, and learning new software development languages and tools. I have implemented event submission forms for regular events, featured events, and company events, as well as validation checks for user inputs. I also automated event page creation using form data. I have developed a QR code generator for the tickets in the database system I have engineered, as well as a QR code scanner for employees to validate user’s tickets for events. These features are critical for the ticketing software BEG is developing to operate. "
+    },
+    {
+        "time": "3:30-3:45",
+        "projectId": "csse-8-330",
+        "title": "Detecting Security Design Patterns in Open-Source Software with CodeQL",
+        "studentName": "Luan Nguyen",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty Research",
+        "facultyAdvisor": "Dr. Hazel Asuncion",
+        "posterLink": "./posters/csse/Finalized Poster-LuanNguyen(1).png",
+        "abstract":"With the rise of security risks, it is imperative that developers focus on creating secure code. During my Spring 2024 research, I joined Dr. Hazeline Asuncion research group. My project focuses on detecting security design patterns using CodeQL, a robust code analysis tool.\n\n Over the course of my research, I concentrated on learning various security design patterns, best practices for software developers regarding security, mastering CodeQL, and writing CodeQL queries for Java open-source projects. My aim was to develop a specific query that identifies security design patterns. This allowed me to apply the knowledge I acquired to these hands-on experiences with real-world projects.\n\n I successfully created several databases from open-source projects on GitHub, ranging from small to large-scale endeavors. I developed three CodeQL queries in Java (Single Sign-On, Secure Logger, and Trusted Proxy). The results demonstrate that CodeQL is capable of detecting security design patterns, but it must be targeted at specific projects, necessitating the tailoring of queries based on the project's specifics, which makes it challenging to generalize a query to target a specific Security Design Pattern (SDP).\n\n The work I have conducted contributes positively to the open-source project community. It impacts security in the open-source ecosystem by enabling developers to determine what SDP already exists in their code (through the use of SDP queries)"
+    },
+    {
+        "time": "3:45-4:00",
+        "projectId": "csse-8-345",
+        "title": "VDocScan Data Extraction",
+        "studentName": "Nathan Koplitz",
+        "studentMajor": "CSSE",
+        "projectType": "Faculty research",
+        "facultyAdvisor": "Dr. Hazel Asuncion",
+        "posterLink": "./posters/csse/NathanKoplitz.jpg",
+        "abstract": "The goal of this project is to allow future program writers the ability to build their program in a way that produces the least amount of security vulnerabilities possible by referring to this project and its vulnerability prediction. VDocScan is an existing, published project by former UW masters student Jeffy Jahfar where product documentation pages are extracted from a vendor’s website, mapped to reported vulnerabilities of that given product, then ran through machine learning classifiers in order to predict said vulnerabilities based on keyword significance. \n\n For my project, I expanded this program by adding 25 vendors to the extracted dataset in order to provide a wider pool of product documentation that increases the accuracy of the vulnerability prediction model. My extraction program consisted of web crawling and web scraping techniques due to the uniqueness of each vendor’s website, some having a list of documentation files per product, while others were more complex such as having a deeply layered nest of links in order to arrive at the desired documentation pages. This is why my web crawling/scraping code needed to be manually adjusted and created for each individual vendor, as no two vendor’s domains are alike. \n\n The outcome of my project was an increase in dataset by over 10,000 product documentation files and 25 vendor’s websites being extracted, greatly improving the data foundation and accuracy of VDocScan. "
+    }
+    ]
+}
+
+
