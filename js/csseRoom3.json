@@ -2,18 +2,7 @@
 
 {
     "csse": [
-      
-        {
-           "time": "2:00-2:15",
-           "projectId": "csse-3-200",
-           "title": "",
-           "studentName": "Michael Robinson-Elmslie",
-           "studentMajor": "CSSE",
-           "projectType": "Internship or Job Opportunity",
-           "facultyAdvisor": "Dr. Munehiro Fukuda",
-           "posterLink": "./posters/csse/michael_4102858_121300589_michael_poster.png",
-           "abstract": "The Distributed Systems Laboratory (DSLab) is applying Agent-Based Modeling (ABM) to databases in interpretive environments to identify data attributes or shapes from big graph data maintained over a cluster system. For this purpose, a library developed by DSLab, MASS (Multi-Agent Spatial Simulation) Java, can be used to populate agents — autonomous mobile objects — over a distributed shared space called places. DSLab has updated a component of MASS Java, GraphPlaces, to enable shared multi-user operations so MASS can be used to facilitate a multi-user graph database.\n\n As an undergraduate research assistant at DSLab, I was tasked with extending the current graph benchmark set to include the new version of MASS Java and Hazelcast. These benchmarks would be used to evaluate both libraries’ parallel performance and programmability in the context of a multi-user graph database across three key areas: graph creation, graph queries, and graph applications.\n\n Working with Hazelcast, I successfully implemented a graph creation mechanism to load graph data from a DSL file. I also implemented various graph queries and ported over two graph applications already written in MASS Java – triangle counting and connected components – utilizing Hazelcasts predicate API. Furthermore, the same graph queries were implemented in MASS. To do so, I updated MASS Java to support distributed queries natively. \n\n The results of my work demonstrated that MASS Java offers a more concise programming experience, requiring approximately 45% less code to implement the same benchmark applications compared to Hazelcast. However, this conciseness comes with a 22% higher cyclomatic complexity, indicating more intricate control structures within the code. \n\n Performance benchmarks revealed that MASS is, on average, 128% faster than Hazelcast in graph creation. However, MASS slightly underperforms Hazelcast in processing graph queries, being about 10% slower. For specific applications, MASS showed a 200% faster execution time in triangle counting. This advantage was reversed when utilizing a caching mechanism in Hazelcast, with MASS being 87% slower. Finally, MASS was 93% slower than Hazelcast when identifying the connected components in a graph. "
-       },
+
        {
         "time": "2:15-2:30",
         "projectId": "csse-3-215",
