@@ -2,17 +2,7 @@
 
 {
     "csse": [
-        {
-           "time": "2:00-2:15",
-           "projectId": "csse-3-200",
-           "title": "",
-           "studentName": "",
-           "studentMajor": "CSSE",
-           "projectType": "Internship or Job Opportunity",
-           "facultyAdvisor": "Dr. Munehiro Fukuda",
-           "posterLink": "./posters/csse/michael_4102858_121300589_michael_poster.png",
-            "abstract":"",
-       },
+
        {
         "time": "2:15-2:30",
         "projectId": "csse-3-215",
